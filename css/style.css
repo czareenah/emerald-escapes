@@ -224,6 +224,10 @@ nav a {
 
 .footer-navigation {
     color: #E8E0D2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
 }
 
 .footer-navigation a:hover {
