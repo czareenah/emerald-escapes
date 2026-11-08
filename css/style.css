@@ -203,6 +203,24 @@ nav a {
     margin-top: 32px;
 }
 
+.experiences-cta {
+    text-align: center;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #24734D;
+    text-color: #E8E0D2;
+    padding: 40px 48px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-color: #E8E0D2;
+}
 
 /* Responsive Design - Mobile */
 @media(max-width: 600px) {
