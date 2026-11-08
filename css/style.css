@@ -137,6 +137,12 @@ nav a {
     margin-top: 0;
 }
 
+.story-eyebrow {
+    color:#24734D;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
 #our-story {
     padding: 80px 48px;
     background-color: #F5EDE0;
