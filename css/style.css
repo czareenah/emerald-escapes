@@ -210,7 +210,7 @@ nav a {
 /* Footer */
 .site-footer {
     background-color: #24734D;
-    text-color: #E8E0D2;
+    color: #E8E0D2;
     padding: 40px 48px;
 }
 
@@ -219,7 +219,15 @@ nav a {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    text-color: #E8E0D2;
+    color: #E8E0D2;
+}
+
+.footer-navigation {
+    color: #E8E0D2;
+}
+
+.footer-navigation a:hover {
+    color: #FFFFFF;
 }
 
 /* Responsive Design - Mobile */
@@ -300,6 +308,16 @@ nav a {
     .experience-grid {
         grid-template-columns: 1fr;
         gap: 16px;
+    }
+
+    .site-footer {
+        padding: 40px 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
     }
 }
 
