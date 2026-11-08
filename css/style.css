@@ -157,8 +157,27 @@ nav a {
     background-color: #F5EDE0;
 }
 
+/* Featured Experiences and Grid */
+.featured-experiences {
+    padding: 80px 48px;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.experience-card {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
 /* Responsive Design - Mobile */
-@media (max-width: 600px) {
+@media(max-width: 601px) {
 
     .hero-image {
         height: 560px;
@@ -228,4 +247,19 @@ nav a {
         margin-bottom: 24px;
     }
 
+    .featured-experiences {
+        padding: 40px 20px;
+    }
+
+    .experience-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+}
+
+/* Responsive Design - Tablet */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .experience-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
