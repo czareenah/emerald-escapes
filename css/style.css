@@ -119,6 +119,13 @@ nav a {
     margin-top: 16px;
 }
 
+.story-heading {
+    font-size: 36px;
+    margin-bottom: 32px;
+    margin-top: 0;
+    line-height: 1.2;
+}
+
 .story-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -133,6 +140,10 @@ nav a {
 .story-content p {
     font-size: 17px;
     line-height: 1.7;
+}
+
+.story-content p:first-child {
+    margin-top: 0;
 }
 
 .story-eyebrow {
@@ -211,4 +222,10 @@ nav a {
     #our-story {
         padding: 40px 20px;
     }
+
+    .story-heading {
+        font-size: 28px;
+        margin-bottom: 24px;
+    }
+
 }
