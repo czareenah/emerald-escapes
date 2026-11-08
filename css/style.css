@@ -133,10 +133,6 @@ nav a {
     align-items: start;
 }
 
-.story-content h2 {
-    margin-top: 0;
-}
-
 .story-content p {
     font-size: 17px;
     line-height: 1.7;
@@ -173,6 +169,12 @@ nav a {
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.experience-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
 }
 
 .experience-card img {
@@ -182,9 +184,23 @@ nav a {
     object-fit: cover;
 }
 
-.experience-card h3,
+.experience-card h3 {
+    margin: 20px 16px 8px;
+    font-size: 20px;
+}
+
 .experience-card p {
-    margin: 16px;
+    margin: 0 16px 24px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.experiences-button {
+    display: inline-block;
+    background-color: #24734D;
+    color: white;
+    text-decoration: none;
+    margin-top: 32px;
 }
 
 
@@ -270,7 +286,7 @@ nav a {
 }
 
 /* Responsive Design - Tablet */
-@media (min-width: 600px) and (max-width: 1024px) {
+@media (min-width: 601px) and (max-width: 1024px) {
     .experience-grid {
         grid-template-columns: repeat(2, 1fr);
     }
