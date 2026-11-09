@@ -22,7 +22,7 @@ body {
     padding: 24px;
 }
 
-nav {
+.navigation-bar nav {
     display: flex;
     align-items: center;
     gap: 24px;
@@ -217,13 +217,12 @@ nav a {
 .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     color: #E8E0D2;
 }
 
 .footer-navigation {
-    color: #E8E0D2;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -236,6 +235,13 @@ nav a {
 
 .footer-navigation a:hover {
     color: #FFFFFF;
+}
+
+.footer-copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 32px;
+    padding-top: 24px;
+    font-size: 14px;
 }
 
 /* Responsive Design - Mobile */
@@ -275,15 +281,13 @@ nav a {
         padding: 16px;
     }
 
-    nav {
-        display: flex;
-        align-items: center;
+    .navigation-bar nav {
         justify-content: center;
         flex-wrap: wrap;
         gap: 16px;
     }
 
-    nav a {
+    .navigation-bar nav a {
         font-size: 14px;
     }
 
