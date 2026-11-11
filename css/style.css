@@ -282,7 +282,8 @@ nav a {
 
 .trail-difficulty {
     font-size: 12px;
-    margin: 0;
+    margin: 8px 16px 12px;
+    line-height: 1.3;
 }
 
 .card-price {
